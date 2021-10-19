@@ -5,7 +5,7 @@ import Service from '../Service/Service';
 const Services = () => {
     const services = useServices();
     return (
-        <div className='mt-5 mb-5'>
+        <div id='services' className='mt-5 mb-5'>
             <div className='text-center mb-5'>
                 <h2 className='fw-bold'>---Services---</h2>
             </div>

@@ -6,31 +6,39 @@ import Footer from './components/Home/Footer/Footer';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import SignUpPage from './components/SignUpPage/SignUpPage';
 import Details from './components/Details/Details';
+import AuthProvider from './context/AuthProvider';
+import Login from './components/Login/Login';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <NavBar></NavBar>
-        <Switch>
-          <Route exact path="/home">
-            <Home></Home>
-          </Route>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route exact path="/login">
-            <SignUpPage></SignUpPage>
-          </Route>
-          <Route exact path="/details/:serviceId">
-            <Details></Details>
-          </Route>
-          <Route path="*">
-            <PageNotFound></PageNotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+      <AuthProvider>
+        <Router>
+          <NavBar></NavBar>
+          <Switch>
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route exact path="/register">
+              <SignUpPage></SignUpPage>
+            </Route>
+            <Route exact path="/login">
+              <Login></Login>
+            </Route>
+            <PrivateRoute exact path="/details/:serviceId">
+              <Details></Details>
+            </PrivateRoute>
+            <Route path="*">
+              <PageNotFound></PageNotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

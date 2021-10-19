@@ -1,9 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
+import useAuth from '../../../hooks/useAuth';
 const userIcon = <FontAwesomeIcon icon={faUser} />
 const NavBar = () => {
+    const { user, logout } = useAuth();
     return (
         <div>
             {/* navbar is here */}
@@ -19,16 +22,37 @@ const NavBar = () => {
                                 <NavLink className="nav-link" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/services">Services</NavLink>
+                                <HashLink className="nav-link" to="/home#services">Services</HashLink>
+                            </li>
+                            <li className="nav-item">
+                                <HashLink className="nav-link" to="/home#doctors">Doctors</HashLink>
+                            </li>
+                            <li className="nav-item">
+                                <HashLink className="nav-link" to="/home#about">About Us</HashLink>
                             </li>
                         </ul>
                         <div className="d-flex align-items-center">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <NavLink className="nav-link" to="/login">Login</NavLink>
-                                </li>
-                            </ul>
-                            <span className='text-light'>{userIcon}</span>
+                            {
+                                user.displayName ? <span></span> :
+                                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li className="nav-item">
+                                            <NavLink className="nav-link" to="/register">Register</NavLink>
+                                        </li>
+                                    </ul>}
+                            {user.displayName ?
+                                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li className="nav-item">
+                                        <NavLink onClick={logout} className="nav-link" to="/login">Logout</NavLink>
+                                    </li>
+                                </ul>
+                                :
+                                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/login">Login</NavLink>
+                                    </li>
+                                </ul>}
+                            <span className='text-light'>{userIcon} {user.displayName}
+                            </span>
                         </div>
                     </div>
                 </div>

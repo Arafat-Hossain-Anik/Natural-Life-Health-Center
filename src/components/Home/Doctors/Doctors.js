@@ -10,7 +10,7 @@ const Doctors = () => {
             .then(data => setDoctors(data))
     }, []);
     return (
-        <div className='mt-5 mb-5'>
+        <div id='doctors' className='mt-5 mb-5'>
             <div className='text-center mb-5'>
                 <h2 className='fw-bold'>---Meet Our Specialist Doctors---</h2>
             </div>

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Dr.Addison Alexander",
+        "designation": "Cardiologist",
+        "phone": 7848154514,
+        "img": "https://medicalpress.inspirythemes.com/reborn/wp-content/uploads/sites/2/2014/05/doctor-2-585x500.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr.Adaline Becka",
+        "designation": "Gynaecologist",
+        "phone": 7848154514,
+        "img": "https://medicalpress.inspirythemes.com/reborn/wp-content/uploads/sites/2/2014/05/doctor-4-585x500.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr.Orana Taleebin",
+        "designation": "Radio Therapist",
+        "phone": 7848154514,
+        "img": "https://medicalpress.inspirythemes.com/reborn/wp-content/uploads/sites/2/2014/05/doctor-1-585x500.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr.Andrew Bert",
+        "designation": "Eye Specialist",
+        "phone": 7848154514,
+        "img": "https://medicalpress.inspirythemes.com/reborn/wp-content/uploads/sites/2/2014/05/doctor-6-585x500.jpg"
+    }
+]

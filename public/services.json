@@ -1,0 +1,38 @@
+[
+    {
+        "serviceName": "Dental Implant",
+        "img": "https://images.pexels.com/photos/5355829/pexels-photo-5355829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "details": "Get out dental implant services which is the best in the world.",
+        "id": 1
+    },
+    {
+        "serviceName": "Blood Bank",
+        "img": "https://media.istockphoto.com/photos/patient-receiving-a-blood-transfusion-picture-id1266746953?k=20&m=1266746953&s=612x612&w=0&h=7zwX0pL745ZHvFKjUpL86kG35zI1LhP8mvK58Ml5M6c=",
+        "details": "In our hospital there is a dedicated blood bank. Where you get all kind of blood for free. Our blood donors heros are at least 5000 in numbers. Every time there is enough blood for patient.",
+        "id": 2
+    },
+    {
+        "serviceName": "Medical Counseling",
+        "img": "https://images.unsplash.com/photo-1542884748-2b87b36c6b90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "details": "Get out medical counseling services which is the best in the world.",
+        "id": 3
+    },
+    {
+        "serviceName": "Cornea Transplant",
+        "img": "https://media.istockphoto.com/photos/one-simple-eye-test-could-save-your-sight-picture-id1305317635?k=20&m=1305317635&s=612x612&w=0&h=j9FuMMuEBOIKefN-WGTG_b88M-PT2TduAAY3y2MeEiY=",
+        "details": "Get out cornea transplant services which is the best in the world.",
+        "id": 4
+    },
+    {
+        "serviceName": "Cancer Treatment",
+        "img": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=940&q=80",
+        "details": "Get out cancer treatment services which is the best in the world.",
+        "id": 5
+    },
+    {
+        "serviceName": "Open Heart Surgery",
+        "img": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+        "details": "Get out open heart surgery services which is the best in the world.",
+        "id": 6
+    }
+]

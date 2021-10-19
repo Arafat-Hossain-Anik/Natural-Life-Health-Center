@@ -1,0 +1,33 @@
+/* custom color  */
+.bg-heavy-dark{
+    background-color: #000000;
+    
+}
+.bg-light-dark{
+    background-color: #111111;
+}
+/* newsletter email input */
+.email-input{
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+    width: 75%;
+}
+/* subscribe btn */
+.btn-subscribe{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.btn-subscribe:hover {
+    opacity:1;
+}
+/* quick link design */
+.quick-links{
+    display: block;
+    text-decoration: none;
+}

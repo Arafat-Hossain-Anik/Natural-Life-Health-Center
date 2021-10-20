@@ -32,13 +32,14 @@ const AboutUs = () => {
                     <div className="col">
                         {/* details */}
                         <p className="fs-5">
-                            "My Online School" is an online based educational platform which is stablished 2021 in the time of COVID pandemic to make education easy and available for everyone. Our's main motto is to give world class education to everyone in minimal cost. "My Online School" is a global online learning platform that offers anyone, anywhere, access to online courses and degrees from worlds best teachers.
+                            "Natural Life Health Center" is a leading hospital in Bangledesh. Ours main motto to give people world class service in low cost. Ours have worlds class facility and doctors who are the best around the world. Execpt that we have a dedicated team for support our patient, a blood bank, ambulance service, pharmacy, well decorated room for patient. Also there is a recreational system that will help patient to recover so early and make them emotionaly strong.
                             <br />
                         </p>
                     </div>
                     {/* details image */}
                     <div className='col'>
-                        <img className='img-fluid' src="https://imageshack.com/i/pmRmaUpTj" alt="" />
+                        {/* <img className='img-fluid' src="https://imageshack.com/i/pmRmaUpTj" alt="" /> */}
+                        <img className='img-fluid' src="https://media.istockphoto.com/photos/portrait-of-middle-aged-asian-female-doctor-standing-in-hospital-picture-id1271328839?k=20&m=1271328839&s=612x612&w=0&h=2cyX-EZL4ynTXCZd0ekoGjd-0FRwJqXAUbhShqkAzE0=" alt="" />
                     </div>
                 </div>
             </div>

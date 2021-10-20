@@ -9,7 +9,10 @@ const Details = () => {
     console.log(allServices);
     const detail = allServices.filter(service => service.id === parseInt(serviceId));
     return (
-        <div className='container py-5'>
+        <div className='container pb-5'>
+            <div className='text-center my-5'>
+                <h2 className='fw-bold'>{detail[0]?.serviceName}</h2>
+            </div>
             <div className="card">
                 <div className="row g-0 mx-auto">
                     <div className="col-md-5">

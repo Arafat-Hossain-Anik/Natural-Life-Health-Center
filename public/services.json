@@ -2,37 +2,43 @@
     {
         "serviceName": "Dental Implant",
         "img": "https://images.pexels.com/photos/5355829/pexels-photo-5355829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "details": "Get out dental implant services which is the best in the world.",
+        "subtitle": "Dental implants as we know them today were invented in 1952 by a Swedish orthopedic surgeon named Per-Ingvar Brånemark.",
+        "details": "Dental implants as we know them today were invented in 1952 by a Swedish orthopedic surgeon named Per-Ingvar Brånemark. Today, they are considered the standard of care for prosthetic replacement of missing teeth in dentistry. A dental implant is a surgical fixture that is placed into the jawbone and allowed to fuse with the bone over the span of a few months. The dental implant acts as a replacement for the root of a missing tooth. In turn, this artificial tooth root serves to hold a replacement tooth or bridge. Having a dental implant fused to the jawbone is the closest thing to mimicking a natural tooth because it stands on its own without affecting the nearby teeth and has great stability. The process of fusion between the dental implant and jawbone is called osseointegration Most dental implants are made of titanium, which allows them to integrate with bone without being recognized as a foreign object in our body. Over time, technology and science have progressed to greatly improve the outcomes of dental implant placement. Today, the success rate for dental implants is close to 98%.",
         "id": 1
     },
     {
         "serviceName": "Blood Bank",
         "img": "https://media.istockphoto.com/photos/patient-receiving-a-blood-transfusion-picture-id1266746953?k=20&m=1266746953&s=612x612&w=0&h=7zwX0pL745ZHvFKjUpL86kG35zI1LhP8mvK58Ml5M6c=",
-        "details": "In our hospital there is a dedicated blood bank. Where you get all kind of blood for free. Our blood donors heros are at least 5000 in numbers. Every time there is enough blood for patient.",
+        "subtitle": "Evercare Blood Bank is a place for collecting, screening, typing, processing, and storing whole blood, packed red blood cells.",
+        "details": "Evercare Blood Bank is a place for collecting, screening, typing, processing, and storing whole blood, packed red blood cells, fresh frozen plasma and platelet concentrate, gathered as a result of blood donation, preserved for patient use in this hospital and other hospitals on request. Evercare Blood Bank, located in basement level of the hospital, is the first government registered hospital blood bank in Dhaka Metropolitan Area. We are committed to keeping pace with the demands of providing 24-hour service by cutting-edge technology and the most secure blood transfusion policy, and we maintain quality in every stride. We provide blood and blood product by standard protocol in all aspects of blood screening, grouping, compatibility testing, component preparation, storage, and transportation. Temperature of preserved blood and blood component is strictly maintained in each step. We also provide blood and blood component to other hospitals in case of emergency. In Evercare Blood Bank, most blood for transfusion is collected from family members and friends as a replacement donation system. Directed and Volunteer donors also donate blood, especially at times of need of rare blood group. For any emergency requirement of blood or information to donate blood, please contact Evercare Blood Bank: 01713041277",
         "id": 2
     },
     {
-        "serviceName": "Medical Counseling",
+        "serviceName": "Medical Counselling",
         "img": "https://images.unsplash.com/photo-1542884748-2b87b36c6b90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        "details": "Get out medical counseling services which is the best in the world.",
+        "subtitle": "A good doctor-patient relationship is the cornerstone of goodmedical practice. Such relationships, epitomized by physicianswith",
+        "details": "A good doctor-patient relationship is the cornerstone of goodmedical practice. Such relationships, epitomized by physicianswith' good bedside manners' , contribute to the process of healing.However, training programmes rarely address such issues andmany studies suggest that serious communication problems arecommon in clinical practice. Though the principles of counsellingskills are based on psychological theory, it is not necessary tounderstand the theory to learn the skill.While there is no correct or single way to conduct interviews,the steps mentioned may provide some useful pointers. Theymaximize the chances of patients expressing their concerns",
         "id": 3
     },
     {
         "serviceName": "Cornea Transplant",
         "img": "https://media.istockphoto.com/photos/one-simple-eye-test-could-save-your-sight-picture-id1305317635?k=20&m=1305317635&s=612x612&w=0&h=j9FuMMuEBOIKefN-WGTG_b88M-PT2TduAAY3y2MeEiY=",
-        "details": "Get out cornea transplant services which is the best in the world.",
+        "subtitle": "A cornea transplant (keratoplasty) is a surgical procedure to replace part of your cornea with corneal tissue from a donor.",
+        "details": "A cornea transplant (keratoplasty) is a surgical procedure to replace part of your cornea with corneal tissue from a donor. Your cornea is the transparent, dome-shaped surface of your eye. It's where light enters your eye and is a large part of your eye's ability to see clearly. A cornea transplant can restore vision, reduce pain, and improve the appearance of a damaged or diseased cornea. Most cornea transplant procedures are successful. But cornea transplant carries a small risk of complications, such as rejection of the donor cornea.",
         "id": 4
     },
     {
         "serviceName": "Cancer Treatment",
         "img": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=940&q=80",
-        "details": "Get out cancer treatment services which is the best in the world.",
+        "subtitle": "Cancer treatment is the use of surgery, radiation, medications and other therapies to cure a cancer, shrink a cancer or stop the progression of a cancer.",
+        "details": "Cancer treatment is the use of surgery, radiation, medications and other therapies to cure a cancer, shrink a cancer or stop the progression of a cancer. Many cancer treatments exist. Depending on your particular situation, you may receive one treatment or you may receive a combination of treatments. The goal of cancer treatment is to achieve a cure for your cancer, allowing you to live a normal life span. This may or may not be possible, depending on your specific situation. If a cure isn't possible, your treatments may be used to shrink your cancer or slow the growth of your cancer to allow you to live symptom free for as long as possible.",
         "id": 5
     },
     {
         "serviceName": "Open Heart Surgery",
         "img": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
-        "details": "Get out open heart surgery services which is the best in the world.",
+        "subtitle": "Open-heart surgery is any type of surgery where the chest is cut open and surgery is performed on the muscles, valves, or arteries of the heart.",
+        "details": "Open-heart surgery is any type of surgery where the chest is cut open and surgery is performed on the muscles, valves, or arteries of the heart. According to the National Heart, Lung, and Blood Institute (NHLBI)Trusted Source, coronary artery bypass grafting (CABG) is the most common type of heart surgery done on adults. During this surgery, a healthy artery or vein is grafted (attached) to a blocked coronary artery. This allows the grafted artery to “bypass” the blocked artery and bring fresh blood to the heart. Open-heart surgery is sometimes called traditional heart surgery. Today, many new heart procedures can be performed with only small incisions, not wide openings. Therefore, the term “open-heart surgery” can be misleading. Open-heart surgery may be done to perform a CABG. A coronary artery bypass graft may be necessary for people with coronary heart disease. Coronary heart disease occurs when the blood vessels that provide blood and oxygen to the heart muscle become narrow and hard. This is often called “hardening of the arteries.” Hardening occurs when fatty material forms a plaque on the walls of the coronary arteries. This plaque narrows the arteries, making it difficult for blood to get through. When blood can’t flow properly to the heart, a heart attack may occur.",
         "id": 6
     }
 ]

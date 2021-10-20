@@ -28,6 +28,9 @@ const NavBar = () => {
                                 <HashLink className="nav-link" to="/home#doctors">Doctors</HashLink>
                             </li>
                             <li className="nav-item">
+                                <NavLink className="nav-link" to="/article">Articles</NavLink>
+                            </li>
+                            <li className="nav-item">
                                 <NavLink className="nav-link" to="/about">About Us</NavLink>
                             </li>
                         </ul>

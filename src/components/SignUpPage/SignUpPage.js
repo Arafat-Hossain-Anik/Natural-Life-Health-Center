@@ -24,7 +24,7 @@ const SignUpPage = () => {
         // sign up form
         <div className="container my-5">
             <div className="row justify-content-center">
-                <div className="col-6 input-field-container roundeds">
+                <div className="col-12 col-md-6 input-field-container roundeds">
                     <h2 className="fw-bold">Sign Up</h2>
                     <form onSubmit={handleRegistration}>
                         <input onBlur={handleEmailChanged} className="input-field" type="text" placeholder="E-mail" required />

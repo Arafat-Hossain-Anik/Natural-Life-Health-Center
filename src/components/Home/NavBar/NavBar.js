@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import useAuth from '../../../hooks/useAuth';
+import { NavHashLink } from 'react-router-hash-link';
 const userIcon = <FontAwesomeIcon icon={faUser} />
 const NavBar = () => {
     const { user, logout } = useAuth();
@@ -22,10 +23,10 @@ const NavBar = () => {
                                 <NavLink className="nav-link" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" to="/home#services">Services</HashLink>
+                                <NavHashLink className="nav-link" to="/home#services">Services</NavHashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" to="/home#doctors">Doctors</HashLink>
+                                <NavHashLink className="nav-link" to="/home#doctors">Doctors</NavHashLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/article">Articles</NavLink>

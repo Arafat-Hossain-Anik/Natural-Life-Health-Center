@@ -21,7 +21,7 @@ const Login = () => {
         <div>
             <div className="container my-5">
                 <div className="row justify-content-center">
-                    <div className="col-6 input-field-container roundeds">
+                    <div className="col-12 col-md-6 input-field-container roundeds">
                         <h2 className="fw-bold">Login</h2>
                         <form onSubmit={handleLogin}>
                             <input onBlur={handleEmailChanged} className="input-field" type="text" placeholder="E-mail" required />
@@ -31,9 +31,9 @@ const Login = () => {
                             <br />
                             {/* sign up and cancel button */}
                             <div className="text-center">
-                                <input type="submit" value="Submit" className='form-btn mb-3 me-5' />
+                                <input type="submit" value="Submit" className='form-btn mb-3 mx-2' />
                                 <NavLink to='/login'>
-                                    <button onClick={signInUsingGoogle} type="submit" className="form-btn loginbtn">Login With Google</button>
+                                    <button onClick={signInUsingGoogle} type="submit" className="form-btn loginbtn mx-2">Login With Google</button>
                                 </NavLink>
                             </div>
                             <div className='text-center'>

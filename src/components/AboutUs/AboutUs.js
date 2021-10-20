@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Developer from '../Developer/Developer';
+import Developer from '../Home/Developer/Developer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowsAlt } from '@fortawesome/free-solid-svg-icons';
 const arrowIcon = <FontAwesomeIcon icon={faArrowsAlt} />
@@ -22,7 +22,7 @@ const AboutUs = () => {
         }
     }
     return (
-        <div id='about' className="container my-5 text-start">
+        <div className="container my-5 text-start">
             <h2 className='text-center'>---About Us---</h2>
             <div>
                 {/* about online school */}

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import Doctor from '../Doctor/Doctor';
 
 const Doctors = () => {
@@ -21,9 +20,6 @@ const Doctors = () => {
                         doctor={doctor}
                     ></Doctor>)
                 }
-            </div>
-            <div className='text-center mt-5'>
-                <NavLink to="/doctorslist" className="btn btn-success">View All Doctors</NavLink>
             </div>
         </div>
     );

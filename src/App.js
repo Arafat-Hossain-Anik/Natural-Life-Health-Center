@@ -9,6 +9,7 @@ import Details from './components/Details/Details';
 import AuthProvider from './context/AuthProvider';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route exact path="/login">
               <Login></Login>
+            </Route>
+            <Route exact path="/about">
+              <AboutUs></AboutUs>
             </Route>
             <PrivateRoute exact path="/details/:serviceId">
               <Details></Details>

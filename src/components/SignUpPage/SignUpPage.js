@@ -1,29 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import './SignUpPage.css';
 
 const SignUpPage = () => {
+    const { createEmailPasswordUser } = useAuth();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const handleRegistration = (e) => {
+        e.preventDefault();
+        // console.log("reg is clicked");
+        createEmailPasswordUser(email, password);
+    }
+    const handleEmailChanged = (e) => {
+        setEmail(e.target.value);
+    }
+    const handlePasswordChanged = (e) => {
+        setPassword(e.target.value);
+    }
+    // console.log(email);
+    // console.log(password);
     return (
         // sign up form
         <div className="container my-5">
             <div className="row justify-content-center">
                 <div className="col-6 input-field-container roundeds">
                     <h2 className="fw-bold">Sign Up</h2>
-
-                    <input className="input-field" type="text" placeholder="E-mail" required />
-                    <br />
-                    <input className="input-field" type="password" placeholder="Password" required />
-                    <br />
-                    <label>
-                        <input type="checkbox" name="remember" style={{ marginBottom: "15px" }} /> By creating an account you agree to our <a href="/home" style={{ color: "dodgerblue" }}>Terms & Privacy</a>
-                    </label>
-                    {/* sign up and cancel button */}
-                    <div className="clearfix">
-                        <button type="button" className="form-btn signupbtn">Submit</button>
-                        <NavLink to='/login'>
-                            <button type="submit" className="form-btn loginbtn">Already Registerd?</button>
-                        </NavLink>
-                    </div>
+                    <form onSubmit={handleRegistration}>
+                        <input onBlur={handleEmailChanged} className="input-field" type="text" placeholder="E-mail" required />
+                        <br />
+                        <input onBlur={handlePasswordChanged} className="input-field" type="password" placeholder="Password" required />
+                        <br />
+                        {/* sign up and cancel button */}
+                        <div className="clearfix text-center">
+                            <input type="submit" value="Register" className='form-btn mb-3' />
+                            <br />
+                            <NavLink to='/login'>Already Registerd?</NavLink>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

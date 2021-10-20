@@ -28,18 +28,11 @@ const NavBar = () => {
                                 <HashLink className="nav-link" to="/home#doctors">Doctors</HashLink>
                             </li>
                             <li className="nav-item">
-                                <HashLink className="nav-link" to="/home#about">About Us</HashLink>
+                                <NavLink className="nav-link" to="/about">About Us</NavLink>
                             </li>
                         </ul>
                         <div className="d-flex align-items-center">
-                            {
-                                user.displayName ? <span></span> :
-                                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li className="nav-item">
-                                            <NavLink className="nav-link" to="/register">Register</NavLink>
-                                        </li>
-                                    </ul>}
-                            {user.displayName ?
+                            {user.email ?
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
                                         <NavLink onClick={logout} className="nav-link" to="/login">Logout</NavLink>
@@ -51,7 +44,7 @@ const NavBar = () => {
                                         <NavLink className="nav-link" to="/login">Login</NavLink>
                                     </li>
                                 </ul>}
-                            <span className='text-light'>{userIcon} {user.displayName}
+                            <span className='text-light'>{userIcon} {user.displayName ? user.displayName : user.email}
                             </span>
                         </div>
                     </div>
